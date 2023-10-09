@@ -1,6 +1,6 @@
 # Ansible Role: GitHub Users
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-github/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-github/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-github/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-github/actions/workflows/ci.yml)
 
 Create users based on GitHub accounts.
 
@@ -79,4 +79,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-
