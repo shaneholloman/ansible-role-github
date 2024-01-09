@@ -33,7 +33,7 @@
     - name: Add users to be removed on first run.
       ansible.builtin.user:
         name: "{{ item }}"
-        ansible.builtin.shell: /bin/bash
+        shell: /bin/bash
         createhome: false
       with_items: "{{ github_users_absent }}"
       when: apt_cache_update.changed
